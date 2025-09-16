@@ -1,0 +1,48 @@
+* {
+    /* * = universal --> Aplica a todos os elementos */
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+}
+
+.destaque { 
+    /* .classe --> Reutilizável em vários elementos */
+    color: blue;
+    font-weight: bold;
+}
+
+#titulo-principal {
+    /* #id --> Único, para um elemento específico */
+    color: red;
+    text-align: center;
+}
+
+p {
+    /* p = tag --> Altera todos os elementos qeu contém a tag */
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    /* Agrupamento de seletores */
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+
+h4 {
+    /* Entre linhas */ line-height: 2;
+    /* Entre letras */ letter-spacing: 5px;
+    /* Entre palavras */ word-spacing: 5px;
+}
+
+img{
+    width: 300px;
+    border: 3px solid red;
+    display: block;
+    margin: auto;
+}
+
+ul {
+    list-style-type: circle;
+}
+
