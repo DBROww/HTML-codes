@@ -1,0 +1,102 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+body{
+    background-color: #333;
+}
+
+main{
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Menu {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    background-color: #1b1b1b;
+    overflow: hidden;
+}
+
+.opcao{
+    float: left;
+}
+
+a{
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+    background-color: #111111;
+}
+
+a:active {
+    color: orange;
+}
+
+img{
+    width: 400px; ;
+    height: 350px ;
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#imagem{
+    text-align: center;
+    margin-left: 80px;
+    
+}
+
+#video,#video2{
+    margin-left: 40px;
+    width: 380px;
+    height: 210px;
+   
+}
+
+
+button{
+    background-color: rgb(62, 62, 254);
+    border: 2px solid rgb(5, 5, 221);
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 50px;
+    
+}
+
+#info{
+    color: white;
+    background-color: #1b1b1b;
+    padding: 5px 20px 20px 20px;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 250px;
+}
+
+h1,h2,h3,p{
+    color: white;
+}
+
+#pagamento{
+    list-style-type: square;
+
+}
+
+#rodape{
+    padding: 15px;    
+    text-align: center;
+    background-color: #1b1b1b;
+}
